@@ -1,4 +1,4 @@
-# PikobrainOS
+# TinyDOS Generating2
 A 16-bit Operating System written in assembly language.
 
 Only 5kB of binary code.
