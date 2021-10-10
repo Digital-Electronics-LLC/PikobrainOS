@@ -1,4 +1,4 @@
-PIKOBRAIN MANUAL v1.5.3
+TinyDOS 1.3 manual
 Hanzlu (2019-2021)
 ---------------------
 
@@ -8,12 +8,12 @@ AND THAT YOU MAY NOT USE PORTIONS OF IT FOR COMMERCIAL USE, WITHOUT THE CONSENT 
 
 ----------
 
-Pikobrain is not a system like others. For that reason it is necessary to read this manual in order to use Pikobrain in a good way.
-In this document I have attempted to present how Pikobrain works to potential users, without getting too technical into the inner workings of Pikobrain.
-I am sure that someone who wants to understand how Pikobrain works in detail will be able to read the source code, and find answers there. You can check out the
-TECHNICAL section of this document to get some information of how some special things have been implemented in Pikobrain.
+TinyDOS is not a system like others. For that reason it is necessary to read this manual in order to use TinyDOS in a good way.
+In this document I have attempted to present how TinyDOS works to potential users, without getting too technical into the inner workings of Pikobrain.
+I am sure that someone who wants to understand how TinyDOS works in detail will be able to read the source code, and find answers there. You can check out the
+TECHNICAL section of this document to get some information of how some special things have been implemented in TinyDOS.
 Lines starting with ** in this document are technical details. Lines starting with ! are warnings.
-£ shows sections containing values depending on the size of Pikobrain. The £ is only a reminder to myself to check those sections when updating this file.
+£ shows sections containing values depending on the size of TinyDOS. The £ is only a reminder to myself to check those sections when updating this file.
 
 TABLE OF CONTENTS:
 1.INTRODUCTION
@@ -32,11 +32,11 @@ TABLE OF CONTENTS:
 INTRODUCTION
 ------------
 £
-Pikobrain is a very small operating system of only 5kB, which still provides the user with all the basic commands to edit files, code, calculate and so on. 
+TinyDOS is a very small operating system of only 5kB, which still provides the user with all the basic commands to edit files, code, calculate and so on. 
 The operating system is completely written in 16-bit assembly language (NASM) and uses the hexadecimal number system. The keyboard is automatically US character set.
 I have only used text editors for coding Pikobrain, currently using Kate in OpenSUSE which is a good one. All source code is in the piko.asm file.
 
-Pikobrain was originally intended to be an operating system in which I could use a low-level esoteric programming language I had made (ACL). However, those ideas where
+TinyDOS was originally intended to be an operating system in which I could use a low-level esoteric programming language I had made (ACL). However, those ideas where
 forgotten the more I coded Pikobrain. Pikobrain was initially an operating system written with the intention to have a source code which was as small as possible. This
 meant the operating system couldn't be very user-friendly or advanced, and still today Pikobrain is supposed to be quite small, but also user-friendly to an accepted
 level. The name Pikobrain comes from the 'big brain meme'. Piko means 10^-12 which is small, just like Pikobrain itself. In other words, Pikobrain is the opposite of big brain. Small size and original code/ideas are therefore important for the development.
