@@ -11,6 +11,6 @@ Tested on an HP ProLiant ML110 G5 (1GB RAM, 80GB HDD, Intel Core 2 Duo, from 200
 
 Should work on i386 architecture and newer. BIOS needed.
 
-Read the pikomanual file for installation guidelines, and explanations of commands etc.
+Read the DOSmanual file for installation guidelines, and explanations of commands etc.
 
 When inside the OS, type 'e0101' to get "help file".
